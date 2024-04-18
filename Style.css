@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: rgb(198, 198, 198);
+}
+
+.profile-pic img {
+    height: 350px;
+    width: 350px;
+    border-radius: 0 5px 5px 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.name h1 {
+    letter-spacing: 0.6px;
+    font-family: cinzel;
+    font-size: 45px;
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    color: royalblue;
+    font-weight: 700;
+}
+
+.name p {
+    font-family: josefin sans;
+    font-size: 45px;
+    position: absolute;
+    top: 180px;
+    left: 700px;
+    letter-spacing: 0.5px;
+    color: crimson;
+}
+
+.contact-box {
+    background-color: #505050;
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 320px;
+    left: 0px;
+    border-radius: 0 30px 30px 0;
+    z-index: 1;
+}
+
+.contact-box h1 {
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: darkkhaki;
+}
+
+.phone h1 {
+    font-family: math;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    color: darkolivegreen;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.phone p {
+    font-size: 20px;
+    font-family: josefin sans;
+    position: absolute;
+    top: 125px;
+    left: 60px;
+}
+
+.email h1 {
+    font-family: math;
+    position: absolute;
+    top: 165px;
+    color: darkolivegreen;
+    left: 60px;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.email p {
+    font-size: 20px;
+    font-family: josefin sans;
+    position: absolute;
+    top: 208px;
+    left: 60px;
+}
+
+.address h1 {
+    font-family: math;
+    position: absolute;
+    top: 245px;
+    left: 60px;
+    color: darkolivegreen;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.address p {
+    font-size: 20px;
+    font-family: josefin sans;
+    position: absolute;
+    top: 290px;
+    left: 60px;
+}
+
+.expertise-box {
+    background-color: #505050;
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 670px;
+    left: 0px;
+    border-radius: 0 30px 30px 0;
+    z-index: 1;
+}
+
+.expertise-box h1 {
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: darkkhaki;
+}
+
+.list {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+}
+
+.list li {
+    font-family: josefin sans;
+    padding: 12px 0;
+    font-size: 20px;
+}
+
+.lang-box {
+    background-color: #505050;
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    border-radius: 0 30px 30px 0;
+    z-index: 1;
+}
+
+.lang-box h1 {
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    color: darkkhaki;
+}
+
+.bar {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+.bar p {
+    font-family: josefin sans;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.bar-width-1 {
+    height: 15px;
+    width: 150px;
+    border-radius: 15px;
+    position: absolute;
+    top: 110px;
+    left: 150px;
+    background-color: #2e2e2e;
+}
+
+.bar-width-percent-1 {
+    height: 15px;
+    width: 75%;
+    border-radius: 15px;
+    background-color: #8b2a2a;
+}
+
+.bar-width-2 {
+    height: 15px;
+    width: 150px;
+    border-radius: 15px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    background-color: #2e2e2e;
+}
+
+.bar-width-percent-2 {
+    height: 15px;
+    width: 90%;
+    border-radius: 15px;
+    background-color: #8b2a2a;
+}
+
+.study-box {
+    background-color: #505050;
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 1200px;
+    left: 0px;
+    border-radius: 0 30px 30px 0;
+    z-index: 1;
+}
+
+.study-box h1 {
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    color: darkkhaki;
+}
+
+.nest h1 {
+    font-family: math;
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    color: darkolivegreen;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.nest p {
+    font-size: 20px;
+    font-family: josefin sans;
+    position: absolute;
+    top: 135px;
+    left: 60px;
+}
+
+.phone-nest h1 {
+    font-family: math;
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    color: darkolivegreen;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.phone-nest p {
+    font-size: 20px;
+    font-family: josefin sans;
+    position: absolute;
+    top: 225px;
+    left: 60px;
+    padding: 0 0 20px 0;
+}
+
+.about-box {
+    background-color: #505050;
+    height: 60px;
+    width: 700px;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    border-radius: 30px 0 0 30px;
+    z-index: 1;
+}
+
+.about-box h1 {
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    right: 500px;
+    color: darkkhaki;
+}
+
+.about-box-p #p1 {
+    font-size: 20px;
+    font-family: josefin sans;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+}
+
+.about-box-p #p2 {
+    font-size: 20px;
+    font-family: josefin sans;
+    position: absolute;
+    top: 480px;
+    left: 700px;
+}
+
+.about-box-p #p3 {
+    font-size: 20px;
+    font-family: josefin sans;
+    position: absolute;
+    top: 560px;
+    left: 700px;
+}
+
+.experience-box {
+    background-color: #505050;
+    height: 60px;
+    width: 700px;
+    position: absolute;
+    top: 650px;
+    right: 0px;
+    border-radius: 30px 0 0 30px;
+    z-index: 1;
+}
+
+.experience-box h1 {
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    right: 500px;
+    color: darkkhaki;
+}
+
+.company-1 h1 {
+    font-family: math;
+    position: absolute;
+    top: 740px;
+    right: 180px;
+    color: darkolivegreen;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.company-1 p {
+    font-size: 20px;
+    font-family: josefin sans;
+    position: absolute;
+    top: 800px;
+    left: 700px;
+}
+
+.company-2 h1 {
+    font-family: math;
+    position: absolute;
+    top: 980px;
+    right: 180px;
+    color: darkolivegreen;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.company-2 p {
+    font-size: 20px;
+    font-family: josefin sans;
+    position: absolute;
+    top: 1050px;
+    left: 700px;
+}
+
+.social-link-box {
+    background-color: #505050;
+    height: 60px;
+    width: 700px;
+    position: absolute;
+    top: 1250px;
+    right: 0px;
+    border-radius: 30px 0 0 30px;
+    z-index: 1;
+}
+
+.social-link-box h1 {
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    right: 500px;
+    color: darkkhaki;
+}
+
+.social-links {
+    position: absolute;
+    top: 150px;
+    left: 180px;
+}
+
+.social-links .fa-xl {
+    font-size: 4em;
+    margin-left: 15px;
+    color: #3c3c3c;
+}
+
+.social-links .fa-xl:hover {
+    transition: all 0.3s;
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 40px;
+    padding: 5px;
+    border: 2px solid rgb(156, 7, 243);
+}
+
+.footer {
+    position: absolute;
+    top: 1500px;
+    left: 40%;
+}
+
+.footer h1{
+    font-family: math;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px;
+}
